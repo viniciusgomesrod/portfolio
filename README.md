@@ -74,4 +74,4 @@ public
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
-Você pode usar, modificar e distribuir este código, desde que os devidos créditos sejam dados, com link para o [original repository](https://github.com/viniciusgomesrod/portfolio).
+Você pode usar, modificar e distribuir este código, desde que os **devidos créditos sejam dados**, com link para o [original repository](https://github.com/viniciusgomesrod/portfolio).
