@@ -47,6 +47,8 @@ lib
 └── ...
 public
 └── ...
+docs
+└── ...
 ```
 
 | Directory            | Description                                             |
@@ -68,6 +70,7 @@ public
 | `data`               | Static data files.                                      |
 | `data/movies`        | JSON files containing movies and their metadata.        |
 | `data/posts`         | MDX files for blog posts.                               |
+| `docs`         | Documentos e artefatos para criação do projeto.                               |
 | `lib`                | Utility functions, types, and helper code.              |
 | `public`             | Public static assets like images.                       |
 
