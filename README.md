@@ -71,6 +71,8 @@ public
 | `lib`                | Utility functions, types, and helper code.              |
 | `public`             | Public static assets like images.                       |
 
+---
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
