@@ -26,10 +26,12 @@ Este portfolio foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Wireframes 
 
-![Descrição da imagem](docs/wireframe_pagina_home.png)
-![Descrição da imagem](docs/wireframe_pagina_projetos.png)
-![Descrição da imagem](docs/wireframe_pagina_academica.png)
-![Descrição da imagem](docs/wireframe_pagina_contato.png)
+![Wireframe Página Home](docs/wireframe_pagina_home.png)
+![Wireframe Página de Projetos](docs/wireframe_pagina_projetos.png)
+![Wireframe Página Acadêmica](docs/wireframe_pagina_academica.png)
+![Wireframe Página de Contato](docs/wireframe_pagina_contato.png)
+
+---
 
 ## Estrutura de Diretórios
 
