@@ -15,7 +15,7 @@ O site está organizado nas seguintes seções:
 
 ## Tecnologias
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+Este portfolio foi desenvolvido utilizando as seguintes tecnologias:
 
 - **HTML5** – Linguagem de marcação utilizada para estruturar o conteúdo das páginas web.
 - **CSS3** – Linguagem de estilo para definir o design, layout e efeitos visuais das páginas.
@@ -23,6 +23,13 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **JavaScript** – Linguagem de programação responsável por adicionar interatividade e dinamismo às páginas web.
 
 ---
+
+## Wireframes 
+
+![Descrição da imagem](docs/wireframe_pagina_home.png)
+![Descrição da imagem](docs/wireframe_pagina_projetos.png)
+![Descrição da imagem](docs/wireframe_pagina_academica.png)
+![Descrição da imagem](docs/wireframe_pagina_contato.png)
 
 ## Estrutura de Diretórios
 
