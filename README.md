@@ -26,10 +26,10 @@ Este portfolio foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Wireframes 
 
-![Wireframe Página Home](docs/wireframe_pagina_home.png)
-![Wireframe Página de Projetos](docs/wireframe_pagina_projetos.png)
-![Wireframe Página Acadêmica](docs/wireframe_pagina_academica.png)
-![Wireframe Página de Contato](docs/wireframe_pagina_contato.png)
+![Wireframe Página Home](https://github.com/viniciusgomesrod/portfolio/blob/main/docs/wireframes/wireframe_pagina_home.png)
+![Wireframe Página de Projetos](https://github.com/viniciusgomesrod/portfolio/blob/main/docs/wireframes/wireframe_pagina_projetos.png)
+![Wireframe Página Acadêmica](https://github.com/viniciusgomesrod/portfolio/blob/main/docs/wireframes/wireframe_pagina_academica.png)
+![Wireframe Página de Contato](https://github.com/viniciusgomesrod/portfolio/blob/main/docs/wireframes/wireframe_pagina_contato.png)
 
 ---
 
