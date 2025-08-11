@@ -21,6 +21,7 @@ Este portfolio foi desenvolvido utilizando as seguintes tecnologias:
 - **CSS3** – Linguagem de estilo para definir o design, layout e efeitos visuais das páginas.
 - **Bootstrap** – Framework front-end que facilita o desenvolvimento de interfaces responsivas e modernas.
 - **JavaScript** – Linguagem de programação responsável por adicionar interatividade e dinamismo às páginas web.
+- **React** – Biblioteca JavaScript para construir interfaces de usuário com componentes reutilizáveis, facilitando o desenvolvimento de aplicações web dinâmicas e eficientes.
 
 ---
 
@@ -88,4 +89,6 @@ docs
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](./LICENSE).
-Você pode usar, modificar e distribuir este código, desde que os **devidos créditos sejam dados**, com link para o [original repository](https://github.com/viniciusgomesrod/portfolio).
+Você pode usar, modificar e distribuir este código, desde que os **devidos créditos sejam dados**, com link para o [original repository](https://github.com/viniciusgomesrod/portfolio). 
+Este projeto foi desenvolvido por [Vinícius Gomes](https://github.com/viniciusgomesrod) e [Thomás Ramos](https://github.com/Thomasramos02) inspirado no portfolio de [Luca Azalim](https://github.com/lucaazalim).
+
