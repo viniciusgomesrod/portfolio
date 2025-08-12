@@ -24,7 +24,7 @@ const Contact = () => {
     <div className="contact-container">
       <header className="contact-header">
         <p className="contact-super-title">CONTATO</p>
-        <h1>Contate-nos para oportunidades</h1>
+        <h1>Contate-me para oportunidades</h1>
         <p className="contact-subtitle">
           Meu objetivo é transformar ideias em ótimos resultados. Se você procura uma parceria, 
           quer discutir um conceito ou simplesmente compartilhar ideias, estou aqui para conversar!
@@ -37,12 +37,12 @@ const Contact = () => {
           <ContactInfoItem 
             icon={<FaEnvelope />} 
             label="EMAIL" 
-            value="th.ramos.oliveira@gmail.com" 
+            value="viniciusgomes2202@gmail.com" 
           />
           <ContactInfoItem 
             icon={<FaWhatsapp />} 
             label="WHATSAPP" 
-            value="+55 31 99318-6223" 
+            value="+55 31 9 8598-4390" 
           />
           <ContactInfoItem 
             icon={<FaMapMarkerAlt />} 
@@ -50,10 +50,10 @@ const Contact = () => {
             value="Belo Horizonte, MG - Brasil" 
           />
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/th-oliveira/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/viniciusgomesrod/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/th-oliveira" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/viniciusgomesrod" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub />
             </a>
           </div>
