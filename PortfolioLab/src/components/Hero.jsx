@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="about" className="hero">
       <div className="hero-content">
-        <h1>Alice Johnson</h1>
+        <h1>Vinicius Gomes</h1>
         <h2>Full-Stack Developer | AI & Cloud Enthusiast</h2>
         <p className="intro-text">
           I am a passionate and versatile Full-Stack Developer...
@@ -20,5 +20,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
