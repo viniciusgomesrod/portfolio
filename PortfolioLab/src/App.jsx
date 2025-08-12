@@ -19,7 +19,7 @@ const App = () => {
             {/* Hero Section */}
             <section id="about" className="hero">
               <div className="hero-content">
-                <h1>Thomás Ramos Oliveira</h1>
+                <h1>Vinicius Gomes</h1>
                 <h2>Full-Stack Developer | AI & Cloud Enthusiast</h2>
                 <p>
                   I am a passionate and versatile Full Stack Developer with over 7 years of experience building robust and scalable web applications. 
@@ -148,7 +148,7 @@ const App = () => {
     <div className="portfolio">
       {/* Header */}
       <header className="header">
-        <div className="logo">Alice Johnson</div>
+        <div className="logo">Vinicius Gomes</div>
         <nav>
           <ul>
             <li>
@@ -244,5 +244,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
