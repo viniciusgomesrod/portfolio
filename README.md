@@ -34,6 +34,16 @@ Este portfolio foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
+## Instruções de Uso
+
+cd PortfolioLab
+npm install
+npm run dev
+Em seguida, clique com Control (Windows/Linux) ou Command (Mac) no link do localhost gerado no terminal.
+
+
+---
+
 ## Estrutura de Diretórios
 
 O projeto está organizado nos seguintes diretórios:
