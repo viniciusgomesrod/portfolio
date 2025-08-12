@@ -18,7 +18,7 @@ const NavLink = ({ section, activeSection, onNavigate, children }) => (
 function Header({ activeSection, onNavigate }) {
   return (
     <header className="header">
-      <div className="logo">Thomás Oliveira</div>
+      <div className="logo">Vinicius Gomes</div>
       <nav>
         <ul>
           <NavLink section="about" activeSection={activeSection} onNavigate={onNavigate}>About</NavLink>
