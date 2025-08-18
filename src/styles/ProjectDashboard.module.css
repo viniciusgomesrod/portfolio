@@ -1,0 +1,341 @@
+:root {
+  --bg-color: #0D1117;
+  --card-bg-color: #161B22;
+  --border-color: #30363d;
+  --primary-text-color: #f0f6fc;
+  --secondary-text-color: #8b949e;
+  --accent-glow-color: rgba(88, 166, 255, 0.5);
+  --accent-color: #58a6ff;
+  --tag-bg-color: rgba(88, 166, 255, 0.1);
+  --tag-border-color: rgba(88, 166, 255, 0.3);
+  --tag-text-color: #79c0ff;
+}
+
+.dashboard-container {
+  background: radial-gradient(ellipse at top, #1e2a3b, var(--bg-color) 60%);
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+/* Hero Section */
+.creative-work-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 2rem;
+  text-align: center;
+}
+
+.creative-work-content {
+  width: 100%;
+  max-width: 800px;
+}
+
+.creative-work-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  background: linear-gradient(90deg, var(--primary-text-color), #a2d2ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.creative-work-subtitle {
+  font-size: 1.1rem;
+  color: var(--secondary-text-color);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+.creative-work-illustration {
+  width: 100%;
+  max-width: 500px;
+  height: 200px;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.gradient-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-color) 0%, transparent 70%);
+  opacity: 0.2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Projects Section */
+.featured-projects-section {
+  padding: 3rem 0;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-text-color);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.project-card {
+  background: var(--card-bg-color);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--accent-color);
+}
+
+/* Improved Image Container */
+.project-image-container {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.03);
+}
+
+/* Project Content */
+.project-info-content {
+  padding: 1.5rem;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.project-info-content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-text-color);
+}
+
+.project-date {
+  font-size: 0.85rem;
+  color: var(--secondary-text-color);
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--secondary-text-color);
+  margin-bottom: 1.5rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  background-color: var(--tag-bg-color);
+  color: var(--tag-text-color);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  border: 1px solid var(--tag-border-color);
+  font-weight: 500;
+}
+
+/* Buttons */
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.live-demo-btn, .source-code-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.live-demo-btn {
+  background-color: var(--accent-color);
+  color: #fff;
+  border: 1px solid var(--accent-color);
+}
+
+.live-demo-btn:hover {
+  background-color: #79c0ff;
+}
+
+.source-code-btn {
+  background-color: transparent;
+  color: var(--primary-text-color);
+  border: 1px solid var(--border-color);
+}
+
+.source-code-btn:hover {
+  background-color: rgba(88, 166, 255, 0.1);
+  border-color: var(--accent-color);
+}
+
+.btn-icon {
+  transition: transform 0.3s ease;
+}
+
+.live-demo-btn:hover .btn-icon {
+  transform: translateX(3px);
+}
+
+.source-code-btn:hover .btn-icon {
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (min-width: 640px) {
+  .dashboard-container {
+    padding: 0 1.5rem;
+  }
+  
+  .creative-work-hero {
+    padding: 4rem 0;
+  }
+  
+  .creative-work-hero h1 {
+    font-size: 3rem;
+  }
+  
+  .creative-work-illustration {
+    height: 250px;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0;
+  }
+  
+  .project-buttons {
+    flex-direction: row;
+  }
+  
+  .live-demo-btn, .source-code-btn {
+    flex: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .creative-work-hero {
+    flex-direction: row;
+    text-align: left;
+    padding: 5rem 0;
+    gap: 3rem;
+  }
+  
+  .creative-work-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .creative-work-subtitle {
+    padding: 0;
+  }
+  
+  .creative-work-illustration {
+    max-width: 40%;
+    height: 300px;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .project-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-date {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard-container {
+    padding: 0 2rem;
+  }
+  
+  .creative-work-hero h1 {
+    font-size: 3.5rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .project-image-container {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .creative-work-hero h1 {
+    font-size: 4rem;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+  }
+}
